@@ -1,11 +1,20 @@
 body {
-  background: black;
-  color: white;
+  background: white;
+  color: Black;
+}
+
+h1{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+p{
+  font-family: 'Cabin', sans-serif;
+
 }
 
 .Plorem{
   columns: 4 20em;
-  color: white;
+  color: Black;
 }
 
 /* Extra small devices (phones, 600px and down) */
