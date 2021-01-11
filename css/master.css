@@ -1,41 +1,34 @@
 body {
-  background: red;
+  background: black;
+  color: white;
 }
 
-/*smartphones mobiles (portrait)*/
-@media (max-width: 480px) {
+.Plorem{
+  columns: 4 20em;
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
 }
 
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    background: green;
-  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
 }
 
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background: yellow;
-  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
 
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    background: black;
-    color : #fff;
-  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
 
-/*desktops - higher resolution*/
-@media (min-width: 1281px) {
-  body {
-    background: rebeccapurple;
-    color : #fff;
-  }
-  .example-five {
-    display: block;
-  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
