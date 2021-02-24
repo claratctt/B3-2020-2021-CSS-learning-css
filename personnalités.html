@@ -1,131 +1,99 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Le CSS - Hugo Pichard</title>
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/styles.css">
-</head>
-  <body class="layout">
-    <header class="header">
-      <div class="grid-container halves">
-        <h1 class="u-align-left">Le css</h1>
-        <div class="navbar">
-          <a href="index.html">Le css</a>
-          <a href="personnalités.html">Personnalités</a>
-          <a href="leaverou.html">Léa Verou</a>
-          <a href="mentions.html">Mentions légales</a>
-        </div>
-      </div>
-    </header>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Clara TRICOTTET</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <!--      <main class="main">
-          <h2>Personalités du css</h2>
-          <div class="article-illustration grid-container quarters">
-            <a class="PersonalityCard">
-              <img src="images/AllaKholmatova.jpg" alt="">
-              <h4>Alla Kholmatova</h4>
-            </a>
-            <a class="PersonalityCard" href="anatudor.html">
-              <img src="images/AnaTudorjpeg.jpeg" alt="">
-              <h4>Ana Tudor</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/ChrisCoyier.jpg" alt="">
-              <h4>Chris Coyier</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/JenSimmons.jpg" alt="">
-              <h4>Jen Simmons</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/LeaVerou.jpg" alt="">
-              <h4>Lea Verou</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/RachelAndrew.jpg" alt="">
-              <h4>Rachel Andrew</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/SaraSoueidan.png" alt="">
-              <h4>Sara Soueidan</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/ValHead.jpg" alt="">
-              <h4>Val Head</h4>
-            </a>
-            <a class="PersonalityCard">
-              <img src="images/SarahDrasner.jpg" alt="">
-              <h4>Sara Soueidan</h4>
-            </a>
-          </div>
-        </main>
-        -->
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/barebones.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon-16.png">
 
-        <section id="possibilities">
-            <div class="wrapper">
-                <article style="background-image: url(images/SarahDrasner.jpg)">
-                    <div class="overlay">
-                        <h4>Sarah Drasner<h4>
-                         <a href="#" class="button">Plus d'infos</a>
-                    </div>
-                  </article>
-
-                 <article style="background-image: url(images/ValHead.jpg)">
-                    <div class="overlay">
-                        <h4>Vah Head</h4>
-                         <a href="#" class="button">Plus d'infos</a>
-                    </div>
-                  </article>
-
-                  <article style="background-image: url(images/AllaKholmatova.jpg)">
-                     <div class="overlay">
-                         <h4>Alla Kholmatova</h4>
-                          <a href="#" class="button">Plus d'infos</a>
-                     </div>
-                   </article>
-
-                   <article style="background-image: url(images/SaraSoueidan.png)">
-                      <div class="overlay">
-                          <h4>Sara Soueidan</h4>
-                           <a href="#" class="button">Plus d'infos</a>
-                      </div>
-                    </article>
-
-                    <article style="background-image: url(images/LeaVerou.jpg)">
-                       <div class="overlay">
-                           <h4>LeaVerou</h4>
-                            <a href="leaverou.html" class="button">Plus d'infos</a>
-                       </div>
-                     </article>
-                     <article style="background-image: url(images/RachelAndrew.jpg)">
-                        <div class="overlay">
-                            <h4>Rachel Andrew</h4>
-                             <a href="#" class="button">Plus d'infos</a>
-                        </div>
-                      </article>
-                      <article style="background-image: url(images/JenSimmons.jpg)">
-                         <div class="overlay">
-                             <h4>Jen Simmons</h4>
-                              <a href="#" class="button">Plus d'infos</a>
-                         </div>
-                       </article>
-                       <article style="background-image: url(images/ChrisCoyier.jpg)">
-                          <div class="overlay">
-                              <h4>Chris Coyier</h4>
-                               <a href="#" class="button">Plus d'infos</a>
-                          </div>
-                        </article>
+  <title>CSS</title>
 
 
-            </div>
-        </section>
+<body class="layout">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Le css</a></li>
+        <li><a href="personnalités.html">Personnalités</a></li>
+        <li><a href="leaverou.html">Léa Verou</a></li>
+        <li><a href="propriétés.html">Propriétés</a></li>
+        <li><a href="mentions.html">Mentions légales</a></li>
+      </ul>
+    </nav>
 
-        <footer class="footer">
-              <div class="grid-container">
-                <h4 class="u-align-left">Footer</h4>
-              </div>
-            </footer>
-  </body>
+
+  </header>
+
+  <main class="main">
+
+    <h2>Personnalités du CSS</h2>
+    <div class="articleillustration grid-container thirds">
+      <a class="persocard" href="#">
+        <img src="images/AllaKholmatova.jpg" alt="">
+        <h4>Alla Kholmatova</h4>
+      </a>
+
+      <a class="persocard" href="#">
+        <img src="images/ChrisCoyier.jpg" alt="">
+        <h4>Chris Coyier</h4>
+      </a>
+
+      <a class="persocard" href="#">
+        <img src="images/JenSimmons.jpg" alt="">
+        <h4>Jen Simmons</h4>
+      </a>
+
+      <a class="persocard" href="leaverou.html">
+        <img src="images/LeaVerou.jpg" alt="">
+        <h4>Lea Verou</h4>
+      </a>
+
+      <a class="persocard" href="#">
+        <img src="images/RachelAndrew.jpg" alt="">
+        <h4>Rachel Andrew</h4>
+      </a>
+
+      <a class="persocard" href="#">
+        <img src="images/SarahDrasner.jpg" alt="">
+        <h4>Sarah Drasner</h4>
+      </a>
+
+      <a class="persocard" href="#">
+        <img src="images/SaraSoueidan.png" alt="">
+        <h4>Sara Soueidan</h4>
+      </a>
+
+      <a class="persocard" href="#">
+        <img src="images/ValHead.jpg" alt="">
+        <h4>Val Head</h4>
+      </a>
+
+
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2021 Clara Tricottet</p>
+  </footer>
+</body>
+
 </html>

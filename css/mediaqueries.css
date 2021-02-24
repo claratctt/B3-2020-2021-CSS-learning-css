@@ -8,11 +8,43 @@ there.
 */
 
 
+@media only screen and (max-width : 700px) {
+
+  .navbar a {
+    display: flex;
+    justify-content : center;
+  }
+
+.imglea img{
+  width: 100vw;
+}
+
+.bio-personnalité{
+  width: 100vw;
+
+}
+
+}
+
+
 /* Larger than mobile (default point when grid becomes active) */
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+
+
+}
 
 /* Larger than phablet */
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
+  .grid-container.thirds {
+		grid-template-columns: repeat(3, 1fr);
+	}
+  }
 
 /* Larger than tablet */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+  .grid-container.thirds {
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+}

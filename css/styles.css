@@ -22,6 +22,7 @@
 - Media Queries
 */
 
+@import "barebones.css";
 @import "custom-properties.css";
 @import "typo.css";
 @import "images.css";
@@ -33,6 +34,6 @@
 @import "code-pre.css";
 @import "tables.css";
 @import "layout-spacing.css";
-@import "mediaqueries.css";
 @import "helpers-utilities.css";
 @import "master.css";
+@import "mediaqueries.css";
